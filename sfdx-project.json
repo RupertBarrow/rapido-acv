@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    }
+  ],
+  "name": "rapido-acv",
+  "namespace": "",
+  "sfdcLoginUrl": "https://acvdemo-dev-ed.develop.salesforce.com",
+  "sourceApiVersion": "63.0"
+}
