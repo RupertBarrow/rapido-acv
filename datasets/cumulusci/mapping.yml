@@ -1,0 +1,36 @@
+Insert Accounts:
+  sf_object: Account
+  fields:
+    - Name
+    - Type
+    - EXTID__c
+    - Industry
+  lookups:
+    ParentId:
+      table: Account
+  action: upsert
+  update_key: EXTID__c
+  select_options:
+    strategy: standard
+    filter: WHERE EXTID__c != null
+
+Insert Opportunities:
+  sf_object: Opportunity
+  fields:
+    - EXTID__c
+    - Name
+    - StageName
+    - CloseDate
+    - Amount
+    - Probability
+    - ACV_Renewal_Expiry_Date__c
+    - ACV_Renewal_Start_Date__c
+    - Type
+  lookups:
+    AccountId:
+      table: Account
+  action: upsert
+  update_key: EXTID__c
+  select_options:
+    strategy: standard
+    filter: WHERE EXTID__c != null

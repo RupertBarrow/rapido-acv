@@ -1,0 +1,14 @@
+{
+  "objects": [
+    {
+      "query": "SELECT Id, Name, Type, Industry, EXTID__c, ParentId FROM Account WHERE EXTID__c!=NULL",
+      "operation": "Upsert",
+      "externalId": "EXTID__c"
+    },
+    {
+      "query": "SELECT Name, Type, Amount, StageName, ACV_Renewal_Expiry_Date__c, ACV_Renewal_Start_Date__c, EXTID__c, CloseDate, Probability, AccountId, Id FROM Opportunity WHERE EXTID__c!=NULL",
+      "operation": "Upsert",
+      "externalId": "EXTID__c"
+    }
+  ]
+}

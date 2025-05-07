@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentAsset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isVisibleByExternalUsers>false</isVisibleByExternalUsers>
+    <language>en_US</language>
+    <masterLabel>LOGO_05_Rapido_seul_400x400_fond_tr</masterLabel>
+    <versions>
+        <version>
+            <number>1</number>
+            <pathOnClient>LOGO_05 Rapido (seul) 400x400 fond transparent, &quot;pi&quot; blanc.png</pathOnClient>
+        </version>
+    </versions>
+</ContentAsset>

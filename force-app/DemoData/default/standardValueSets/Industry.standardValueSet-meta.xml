@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Agriculture</fullName>
+        <default>false</default>
+        <label>Agriculture</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Apparel</fullName>
+        <default>false</default>
+        <label>Apparel</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Banking</fullName>
+        <default>false</default>
+        <label>Banking</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Biotechnology</fullName>
+        <default>false</default>
+        <label>Biotechnology</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Chemicals</fullName>
+        <default>false</default>
+        <label>Chemicals</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Communications</fullName>
+        <default>false</default>
+        <label>Communications</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Construction</fullName>
+        <default>false</default>
+        <label>Construction</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Consulting</fullName>
+        <default>false</default>
+        <label>Consulting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Education</fullName>
+        <default>false</default>
+        <label>Education</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Electronics</fullName>
+        <default>false</default>
+        <label>Electronics</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Energy</fullName>
+        <default>false</default>
+        <label>Energy</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Engineering</fullName>
+        <default>false</default>
+        <label>Engineering</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Entertainment</fullName>
+        <default>false</default>
+        <label>Entertainment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Environmental</fullName>
+        <default>false</default>
+        <label>Environmental</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Finance</fullName>
+        <default>false</default>
+        <label>Finance</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Food &amp; Beverage</fullName>
+        <default>false</default>
+        <label>Food &amp; Beverage</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Government</fullName>
+        <default>false</default>
+        <label>Government</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Healthcare</fullName>
+        <default>false</default>
+        <label>Healthcare</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Hospitality</fullName>
+        <default>false</default>
+        <label>Hospitality</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Insurance</fullName>
+        <default>false</default>
+        <label>Assurance</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Machinery</fullName>
+        <default>false</default>
+        <label>Machinery</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Manufacturing</fullName>
+        <default>false</default>
+        <label>Industrie</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Media</fullName>
+        <default>false</default>
+        <label>Media</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Not For Profit</fullName>
+        <default>false</default>
+        <label>Not For Profit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Recreation</fullName>
+        <default>false</default>
+        <label>Recreation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Retail</fullName>
+        <default>false</default>
+        <label>Retail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Shipping</fullName>
+        <default>false</default>
+        <label>Shipping</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Technology</fullName>
+        <default>false</default>
+        <label>Technology</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Telecommunications</fullName>
+        <default>false</default>
+        <label>Telecommunications</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Transportation</fullName>
+        <default>false</default>
+        <label>Transportation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Utilities</fullName>
+        <default>false</default>
+        <label>Services collectifs</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Aerospace - Defense</fullName>
+        <default>false</default>
+        <label>Aéronautique - Defense</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Bank - Finance</fullName>
+        <default>false</default>
+        <label>Banque - Finance</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Biotech. - Healthcare - Pharmaceutical</fullName>
+        <default>false</default>
+        <label>Biotech - Santé1</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Building - Construction - Engineering</fullName>
+        <default>false</default>
+        <label>Building - Construction - Engineering</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Communication - Media</fullName>
+        <default>false</default>
+        <label>Communication - Media</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Consulting - IT - Services - Software</fullName>
+        <default>false</default>
+        <label>Conseil - IT - Services</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Energy - Mining - Oil &amp; Gas</fullName>
+        <default>false</default>
+        <label>Énergies</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Entertainment - Leisure</fullName>
+        <default>false</default>
+        <label>Divertissement - Loisirs</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Fashion</fullName>
+        <default>false</default>
+        <label>Fashion</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FMCG - Fast-moving consumer goods</fullName>
+        <default>false</default>
+        <label>FMCG - Fast-moving consumer goods</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Food &amp; Beverages</fullName>
+        <default>false</default>
+        <label>Alimentation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Hospitals</fullName>
+        <default>false</default>
+        <label>Hospitals</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Non Profit</fullName>
+        <default>false</default>
+        <label>Non Profit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Public Sector - Government</fullName>
+        <default>false</default>
+        <label>Secteur Public - Gouvernement</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Real Estate</fullName>
+        <default>false</default>
+        <label>Real Estate</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Retail - E-commerce - B2B</fullName>
+        <default>false</default>
+        <label>Retail - E-commerce - B2B</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Retail - E-commerce - B2C</fullName>
+        <default>false</default>
+        <label>E-commerce - B2C</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Services</fullName>
+        <default>false</default>
+        <label>Services</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Consulting - IT - Services  - Software</fullName>
+        <default>false</default>
+        <label>Conseil - Informatique - Services</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Biotech. -  Healthcare - Pharmaceutical</fullName>
+        <default>false</default>
+        <label>Biotech - Santé</label>
+    </standardValue>
+</StandardValueSet>

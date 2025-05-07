@@ -43,3 +43,6 @@ $RECYCLE.BIN/
 **/__pycache__/
 **/.venv/
 **/venv/
+.cci/orginfo/customization-agility-5499-dev-ed.scratch.my.salesforce.com__test-3gousiplhp2d__example.com/cumulusci.salesforce_api.org_schema/org_schema.db.gz
+.cci/orginfo/enterprise-customization-3e-dev-ed.scratch.my.salesforce.com__test-hc0hniibwj77__example.com/cumulusci.salesforce_api.org_schema/org_schema.db.gz
+.cci/snapshot/dev.json

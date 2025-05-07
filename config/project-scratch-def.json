@@ -1,5 +1,5 @@
 {
-  "orgName": "rapido-acv",
+  "orgName": "rapido_acv",
   "edition": "Developer",
   "features": ["EnableSetPasswordInApi"],
   "settings": {
@@ -8,6 +8,9 @@
     },
     "mobileSettings": {
       "enableS1EncryptedStoragePref2": false
+    },
+    "languageSettings": {
+      "enableTranslationWorkbench": true
     }
   }
 }

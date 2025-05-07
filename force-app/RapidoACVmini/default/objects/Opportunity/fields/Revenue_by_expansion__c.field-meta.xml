@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Revenue_by_expansion__c</fullName>
+    <description>Includes revenue by cross-sell and up-sell.
+Used to work out percentages of revenue by expansion.</description>
+    <formula>IF(!(IsClosed &amp;&amp; !IsWon) &amp;&amp; (ISPICKVAL(Type, &quot;Up-sell&quot;) || ISPICKVAL(Type, &quot;Cross-sell&quot;)),
+Amount,
+0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>_Revenue by expansion</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,58 @@
+minimum_cumulusci_version: "4.3.0"
+
+project:
+  name: rapido_acv
+
+  ##############################################################################
+
+  package:
+    name: $project_config.project__name
+    api_version: "62.0"
+  git:
+    default_branch: "main"
+  source_format: sfdx
+
+orgs:
+  scratch:
+    dev:
+      config_file: orgs/dev.json
+      days: 30
+
+flows:
+  deploy_rapido_acv_mini:
+    steps:
+      1:
+        task: deploy
+        options:
+          path: force-app/RapidoACVmini
+      2:
+        task: assign_permission_sets
+        options:
+          api_names:
+            - ACV_Admin
+  deploy_rapido_acv_extras:
+    steps:
+      1:
+        task: deploy
+        options:
+          path: force-app/RapidoACVextras
+      2:
+        task: assign_permission_sets
+        options:
+          api_names:
+            - ACV_Admin_extras
+  deploy_rapido_acv_demodata:
+    steps:
+      1:
+        task: deploy
+        options:
+          path: force-app/DemoData
+      2:
+        task: assign_permission_sets
+        options:
+          api_names:
+            - ACV_Admin_for_DemoData
+      3:
+        task: load_dataset
+        options:
+          mapping: datasets/mapping.yml

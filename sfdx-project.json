@@ -3,9 +3,21 @@
     {
       "path": "force-app",
       "default": true
+    },
+    {
+      "path": "force-app/RapidoACVmini",
+      "default": false
+    },
+    {
+      "path": "force-app/RapidoACVextras",
+      "default": false
+    },
+    {
+      "path": "force-app/DemoData",
+      "default": false
     }
   ],
-  "name": "rapido-acv",
+  "name": "rapido_acv",
   "namespace": "",
   "sfdcLoginUrl": "https://acvdemo-dev-ed.develop.salesforce.com",
   "sourceApiVersion": "63.0"

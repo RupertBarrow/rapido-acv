@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACV_type__c</fullName>
+    <description>&quot;won&quot;, &quot;lost&quot;, &quot;forecast&quot;</description>
+    <externalId>false</externalId>
+    <formula>IF(ACV_won__c&lt;&gt;0  || ACV_won_Y_1__c&lt;&gt;0  || ACV_won_Y_2__c&lt;&gt;0  || ACV_won_Y_3__c&lt;&gt;0,  &quot;won&quot;,
+IF( ACV_forecast__c &lt;&gt;0, &quot;forecast&quot;,
+IF(ACV_lost__c&lt;&gt;0 || ACV_lost_Y_1__c&lt;&gt;0 || ACV_lost_Y_2__c&lt;&gt;0 || ACV_lost_Y_3__c&lt;&gt;0, &quot;lost&quot;,
+&quot;&quot;)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>_ACV type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
