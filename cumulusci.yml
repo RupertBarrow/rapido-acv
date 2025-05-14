@@ -29,7 +29,7 @@ flows:
         task: assign_permission_sets
         options:
           api_names:
-            - ACV_Admin
+            - Rapido_ACV_Admin
   deploy_rapido_acv_extras:
     steps:
       1:
@@ -40,7 +40,7 @@ flows:
         task: assign_permission_sets
         options:
           api_names:
-            - ACV_Admin_extras
+            - Rapido_ACV_Admin_extras
   deploy_rapido_acv_demodata:
     steps:
       1:
@@ -51,7 +51,7 @@ flows:
         task: assign_permission_sets
         options:
           api_names:
-            - ACV_Admin_for_DemoData
+            - Rapido_ACV_Admin_for_DemoData
       3:
         task: load_dataset
         options:

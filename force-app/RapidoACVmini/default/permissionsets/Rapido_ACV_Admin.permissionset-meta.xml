@@ -166,7 +166,7 @@
     <readable>true</readable>
   </fieldPermissions>
   <hasActivationRequired>false</hasActivationRequired>
-  <label>ACV Admin</label>
+  <label>Rapido ACV Admin</label>
   <objectPermissions>
     <allowCreate>true</allowCreate>
     <allowDelete>false</allowDelete>
