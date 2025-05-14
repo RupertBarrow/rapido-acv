@@ -1,6 +1,6 @@
 # Rapido ACV
 
-This repository contains a demonstration to support my presentation at the Salesforce Agentforce World Tour Paris 2025, [shared here (in French)](/talk/fr/Rupert%20Barrow%20-%20Piloter%20business%20récurrent%20avec%20l'ACV.pdf).
+This repository contains a demonstration to support my presentation at the Salesforce Agentforce World Tour Paris 2025, [shared here (in French)](/talk/fr/Rupert%20Barrow%20-%20Piloter%20business%20récurrent%20avec%20l'ACV%20-%20v1.pdf).
 
 ## Contents
 
